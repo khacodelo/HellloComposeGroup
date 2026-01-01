@@ -1,0 +1,34 @@
+﻿# Built files
+/build
+**/build/
+
+# Gradle
+.gradle/
+**/.gradle/
+
+# Local configuration file (sdk path)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Kotlin / Java
+*.class
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# Keystore (nếu có)
+*.jks
+*.keystore
