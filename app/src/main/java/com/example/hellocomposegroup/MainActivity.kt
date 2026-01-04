@@ -53,7 +53,7 @@ fun GroupIntroScreen() {
             painter = painterResource(id = R.drawable.logo),
             contentDescription = "Group Logo",
             modifier = Modifier
-                .size(140.dp)
+                .size(340.dp)
                 .clip(CircleShape)
         )
 
@@ -61,7 +61,7 @@ fun GroupIntroScreen() {
 
         Text(
             text = "HELLO COMPOSE GROUP",
-            fontSize = 22.sp,
+            fontSize = 30.sp,
             fontWeight = FontWeight.Bold
         )
 
@@ -78,8 +78,8 @@ fun GroupIntroScreen() {
                 Text(
                     text = "• $name",
                     modifier = Modifier.padding(vertical = 4.dp),
-                    color = if (isMyName) Color.Blue else Color.Unspecified,
-                    fontSize = if (isMyName) 20.sp else 16.sp
+                    color = if (isMyName) Color.Red else Color.Blue,
+                    fontSize = if (isMyName) 20.sp else 18.sp
                 )
             }
         }
